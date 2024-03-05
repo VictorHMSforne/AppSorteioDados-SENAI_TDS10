@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppSorteioDados.MainPage" BackgroundColor="White" Title="Sorteio de Dado">
+
+    <StackLayout>
+        <Image Source="dado_logo" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+        <ImageButton Source="botaozinho_play" Margin="20" BackgroundColor="Transparent" x:Name="btPlay" Clicked="btPlay_Clicked"/>
+    </StackLayout>
+
+</ContentPage>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppSorteioDados.PageDado" Background="white" Title="Resultado">
+    <ContentPage.Content>
+        
+        <StackLayout>
+            
+           <!-- <Image Source="DadoAnimado.gif" IsAnimationPlaying="{Binding IsPlaying, Mode= TwoWay}"/> -->
+           <!-- <ImageButton Source="btnParar"  Margin="20" BackgroundColor="White" x:Name="btParar" Clicked="btParar_Clicked"/>-->
+            <ImageButton Source="btnVoltar" Margin="20" BackgroundColor="White" x:Name="btVoltar" Clicked="btVoltar_Clicked"/>
+            <Image Source="Dado1"  Margin="20" BackgroundColor="Transparent" x:Name="FaceDado"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
